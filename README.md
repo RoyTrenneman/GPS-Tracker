@@ -10,8 +10,8 @@ pio lib dependancy: PubSubClient_ID89  StreamDebugger_ID1286  TinyGPS_ID416  Tin
 **IDE used**:
 [PlatformIO Core](https://docs.platformio.org/en/latest/quickstart.html)
 
-**TTGO T-Call SIM800 library**
-[Forked from vshymanskyy/TinyGSM](https://github.com/vshymanskyy/TinyGSM)
+**TTGO T-Call SIM800 library:**
+Forked from [vshymanskyy/TinyGSM](https://github.com/vshymanskyy/TinyGSM)
 
 https://github.com/RoyTrenneman/TinyGSM
 
