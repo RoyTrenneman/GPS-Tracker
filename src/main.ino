@@ -351,7 +351,7 @@ void loop() {
   client2.publish("GPS/location", String(NMEA).c_str() ) ;
   delay(10000);
   Serial.println("Poweroff GSM...");
-  poweroff_GPS();
+  poweroff_gsm();
   delay(5000);
   Serial.println("Going to deep sleep...");
   ESP.deepSleep(60 * 1000000);   
