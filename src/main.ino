@@ -9,8 +9,6 @@ const char  simPIN[]   = "0000"; // SIM card PIN code, if any
 
 #include <TinyGsmClient.h>
 #include <Wire.h>
-#include <ArduinoHttpClient.h>
-#include <ArduinoJson.h>
 #include <TinyGPS.h>
 
 // IP5306 register def
@@ -150,7 +148,7 @@ bool checkNetwork() {
 bool connect_GSM() {
   
   SerialMon.print("Waiting for network...");
-  if (!modem.waitForNetwork(240000L)) {
+  if (!modem.waitForNetwork(30000L)) {
     SerialMon.println(" fail");
     delay(10000);
     return false;
