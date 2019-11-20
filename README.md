@@ -22,7 +22,7 @@ https://github.com/RoyTrenneman/TinyGSM
 
 ## Change Logs
 **2019.2**
-- Added OTA capable
+- Added upgrade OTA capable
 - Added Debug message over Wifi
 - Added change IP destination via SMS (if no DNS)
 - Added support SPIFFS for writing conf in Mem
